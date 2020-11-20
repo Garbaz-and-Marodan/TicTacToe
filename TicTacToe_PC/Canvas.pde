@@ -21,7 +21,7 @@ class Canvas {
 
     map.show();
     if (game.state==0) {
-      game.showEnd();
+//      game.showEnd();
       game.newGame();
       game.state = -1;
     } else if (game.state==-1)game.state=1;
